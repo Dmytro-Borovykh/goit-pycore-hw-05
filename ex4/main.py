@@ -88,7 +88,6 @@ def show_all_contacts(contacts):
         return "No contacts found."
 
 
-@input_error
 def main():
     try:
         with open("contact_db.json", "r", encoding="utf-8") as file:
